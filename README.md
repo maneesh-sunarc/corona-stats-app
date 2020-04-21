@@ -1,27 +1,21 @@
-# CoronaStatsApp
+Prerequisites
+-------------
+  1. Before you begin, make sure your development environment includes Node.js® and an npm package manager.
+     Node.js
+     Angular requires a current, active LTS, or maintenance LTS version of Node.js. See the engines key for the specific version requirements in our package.json.
+     To check your version, run node -v in a terminal/console window.
+     To get Node.js, go to nodejs.org.
+   2. Install the Angular CLI using below command.
+      npm install -g @angular/cli    
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+How To Run Project
+------------------
+1. Go to base folder where angular.json, package.json resides. and execute below command.
+        npm i
+	This command fetch and loads all dependencies 	
+2. Execute below command to build the project
+        ng build
+3. Execute below command to run the project  
+        ng serve --port=9200		
+4. You can access the project on browser using below url
+        http://localhost:9200
